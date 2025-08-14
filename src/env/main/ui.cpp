@@ -538,9 +538,6 @@ static const luaL_Reg imguiFunctions[] = {
         ///////////////////////////////////////////////////////////////////////////////////////////////
 
         // Slider
-
-        //  IMGUI_API bool          SliderFloat(const char* label, float* v, float v_min, float v_max, const char* format = "%.3f", ImGuiSliderFlags flags = 0);     // adjust format to decorate the value with a prefix or a suffix for in-slider labels or unit display.
-
         {"Slider", [](lua_State *L) -> int {
             const char* label = luaL_checkstring(L, 2);
             float value = luaL_checknumber(L, 3);
@@ -555,10 +552,6 @@ static const luaL_Reg imguiFunctions[] = {
             lua_pushboolean(L, changed);
             return 2;
         }},
-
-        // TODO:
-        // Inputs Utilities: Keyboard/Mouse/Gamepad
-        // Sliders
 
         {NULL, NULL}
 };
