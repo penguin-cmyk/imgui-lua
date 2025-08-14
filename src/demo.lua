@@ -61,7 +61,7 @@ local AppState = {
     textColor = Color4.new(205, 214, 244, 1.0),
 
     progressValue = 0.7,
-    sliderValue = 50,           -- soon cro I will need to add sliders
+    sliderValue = 50,          
 
     singleLineText = "",
     multiLineText = "Welcome to ImGui Lua Demo!\n\nThis is a multi-line text area.\nYou can edit this content freely.\n\nFeatures:\n- Syntax highlighting ready\n- Tab support\n- Multi-line editing",
