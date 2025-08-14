@@ -1,13 +1,4 @@
 --[[
-    Simple imgui port to lua, stuff that changed is:
-
-    InputTextMultiline and InputText take in 4 maximum arguments:
-
-    InputTextMultiline:
-        - label, buffer size, size, (optional) flags,
-    InputText:
-        - label, buffer size, (optional) flags,
-
     ImVec2, ImVec4 is also not a type in here, you can just make the function yourself by returning the given amount of arguments as a table
     so for example in ImVec2 there is x and y so we return: {x = x, y = y}
 
