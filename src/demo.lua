@@ -18,10 +18,6 @@
     Everything that has a ImVec2 as a input option will need it, for example:
     - ImGui::BeginTable('Table', 2, ImGuiTableFlags_Borders | ImGuiTableFlags_RowBg, ImVec2.zero)
     - ImGui::Button("Table button 2", ImVec2.zero)
-
-
-    There are not gonna be that many sliders supported there will only be one general,
-        where we will only take in a string
 ]]--
 
 local WINDOW_WIDTH = 900
