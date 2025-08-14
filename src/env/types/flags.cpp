@@ -755,7 +755,6 @@ FlagEntry LuaGuiTableBgTarget[] = {
 };
 
 void RegisterFlagsTable(lua_State *L, FlagEntry* entry, size_t count) {
-    lua_getglobal(L, "flags");
     for (int i = 0; i < count; i++) {
         lua_pushnumber(L, entry[i].value);
         lua_setglobal(L, entry[i].name);
