@@ -27,7 +27,7 @@ ImGui-Lua is a binding library that ports Dear ImGui functionality to Lua while 
   </tr>
   <tr>
     <td><strong>Cross-Platform</strong></td>
-    <td>Works on Windows, Linux, and macOS</td>
+    <td>Works on Windows</td>
   </tr>
 </table>
 
