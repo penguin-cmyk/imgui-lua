@@ -1,3 +1,6 @@
+# NOTE
+This project is currently under a rewrite where more features will be added
+
 # ImGui-Lua
 
 <div align="center">
