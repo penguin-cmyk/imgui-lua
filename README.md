@@ -1,5 +1,6 @@
 # NOTE
-Project Rewrite started
+Rewrite
+
 Done / planned in rewrite: 
 - [x] Cross-compatible
 - [x] Using LuaJIT for better performance
