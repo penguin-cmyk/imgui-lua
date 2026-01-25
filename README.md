@@ -4,6 +4,7 @@ Rewrite
 Done / planned in rewrite: 
 - [x] Cross-compatible
 - [x] Using LuaJIT for better performance
+- [x] Passing in the filename in the terminal as argument instead of calling the file "demo.lua"
 - [ ] More readable code
 - [ ] better organization
 - [ ] not using macros for everything
