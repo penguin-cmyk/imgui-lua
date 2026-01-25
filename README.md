@@ -5,6 +5,7 @@ Done / planned in rewrite:
 - [x] Using LuaJIT for better performance
 - [ ] More readable code
 - [ ] better organization
+- [ ] not using macros for everything
   
 # ImGui-Lua
 
