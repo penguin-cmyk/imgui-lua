@@ -1,6 +1,11 @@
 # NOTE
-This project is currently under a rewrite where more features will be added
-
+Project Rewrite started
+Done / planned in rewrite: 
+- [x] Cross-compatible
+- [x] Using LuaJIT for better performance
+- [ ] More readable code
+- [ ] better organization
+  
 # ImGui-Lua
 
 <div align="center">
