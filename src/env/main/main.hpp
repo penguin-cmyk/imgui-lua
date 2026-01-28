@@ -118,8 +118,8 @@ static const luaL_Reg imGuiFunctions[] = {
 
     {"SetNextWindowSize", [](lua_State* L) -> int
     {
-        const auto height = lua_get<float>(L, 2, static_cast<int>(ImGui::GetWindowWidth()));
-        const auto width  = lua_get<float>(L, 3, static_cast<int>(ImGui::GetWindowHeight()));
+        const auto height = lua_get<float>(L, 2, ImGui::GetWindowWidth());
+        const auto width  = lua_get<float>(L, 3, ImGui::GetWindowHeight());
 
         return lua_wrap<void>(L, [&]() { ImGui::SetNextWindowSize({ height, width }); });
     }},
